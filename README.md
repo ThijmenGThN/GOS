@@ -6,8 +6,8 @@ An open source project which will be worked on from time to time, trying to achi
 2. Unzip the .zip file.
 3. Drag or double click the index.html file.
 
-# Third-party
-**jQuery**
+# Third-party additions
+> **jQuery**
 
 ## Useful Links
 [Issue Report](https://github.com/ThijmenGThN/GOS/issues) - [Request](https://github.com/ThijmenGThN/GOS/pulls) - [Releases](https://github.com/ThijmenGThN/GOS/releases) - [Author](https://github.com/ThijmenGThN)
