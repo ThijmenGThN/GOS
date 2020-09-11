@@ -1,0 +1,139 @@
+
+.taskbar {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+
+  width: 100%;
+  height: 32px;
+
+  background-color: rgba(0,0,0,.8);
+}
+
+#taskbar-start {
+  position: absolute;
+  top: 3px;
+  left: 5px;
+
+  width: 26px;
+  height: 26px;
+
+  background-image: 100%, 100%;
+}
+
+#taskbar-start:hover {
+  cursor: pointer;
+
+  background-color: #00befb42;
+}
+
+.taskbar-startMenu {
+  overflow-y: hidden;
+
+  transition: .5s;
+
+  position: absolute;
+  bottom: 32px;
+  left: -200px;
+
+  width: 200px;
+  height: 300px;
+
+  background-color: rgba(0,0,0,.8);
+}
+
+.taskbar-startMenu ul {
+  transition: .75s;
+
+  position: absolute;
+  bottom: -280px;
+  left: 46px;
+
+  width: 144px;
+  height: 280px;
+}
+
+.taskbar-startMenu li {
+  overflow-y: scroll;
+
+  cursor: pointer;
+
+  margin-bottom: 10px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+
+  width: 100%;
+  height: 30px;
+
+  background-color: #2396bb33;
+}
+
+.taskbar-startMenu li:hover {
+  background-color: #00befb42;
+}
+
+.taskbar-startMenu li img {
+  position: absolute;
+  top: 5px;
+  left: 7px;
+
+  width: 20px;
+  height: 20px;
+}
+
+.taskbar-startMenu li p {
+  position: absolute;
+  top: 6px;
+  left: 36px;
+
+  width: 103px;
+  height: 20px;
+
+  font-size: 16px;
+  color: #0b6d8c;
+}
+
+.taskbar-date {
+  position: absolute;
+  top: 9px;
+  right: 8px;
+
+  height: 26px;
+
+  color: #2396bb;
+  font-size: 14px;
+}
+
+.taskbar-applets {
+  position: relative;
+  top: 3px;
+  left: 36px;
+
+  width: 670px;
+  height: 26px;
+}
+
+.taskbar-applets li {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+  height: 100%;
+  width: 32px;
+}
+
+.taskbar-applets li:hover {
+  cursor: pointer;
+
+  background-color: #00befb42;
+}
+
+.taskbar-applets li img {
+  position: absolute;
+  top: 1px;
+  left: 3px;
+
+  height: 100%;
+  width: 26px;
+}

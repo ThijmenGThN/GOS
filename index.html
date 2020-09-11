@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>GOS</title>
+
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/select.css">
+    <link rel="stylesheet" href="css/taskbar.css">
+    <link rel="stylesheet" href="css/task.css">
+
+    <script src="lib/socket.js"></script>
+    <script src="lib/jQuery.js"></script>
+    <script>const socket = io()</script>
+  </head>
+  <body>
+    <div id="desktop">
+      <div id="select"></div>
+
+      <div id="tasks"></div>
+
+      <div class="taskbar">
+        <img id="taskbar-start" src="asset/start.png">
+        <div class="taskbar-startMenu">
+          <ul>
+            <li class="tasks-launch-explorer"><img src="asset/explorer.png"><p>File Explorer</p></li>
+          </ul>
+        </div>
+        <ul class="taskbar-applets">
+          <li class="tasks-launch-explorer"><img src="asset/explorer.png"></li>
+        </ul>
+        <p class="taskbar-date"></p>
+      </div>
+    </div>
+  </body>
+  <script src="js/select.js" charset="utf-8"></script>
+  <script src="js/window.js" charset="utf-8"></script>
+  <script src="js/taskbar.js" charset="utf-8"></script>
+  <script src="js/task.js" charset="utf-8"></script>
+</html>

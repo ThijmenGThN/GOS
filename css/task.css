@@ -1,0 +1,50 @@
+
+.task-titleBar {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+  width: 100%;
+  height: 32px;
+
+  background-color: #02455a;
+}
+
+.task-titleBar p {
+  position: absolute;
+  top: 7px;
+  left: 8px;
+
+  height: 26px;
+
+  color: black;
+  font-size: 16px;
+}
+
+.task-titleBar img {
+  position: absolute;
+  top: 4.5px;
+  right: 5px;
+
+  width: 23px;
+  height: 23px;
+
+  background-color: #02455a;
+}
+
+.task-titleBar img:hover {
+  cursor: pointer;
+
+  background-color: #00befb42;
+}
+
+.task-explorer {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+
+  width: 350px;
+  height: 250px;
+
+  background-color: rgba(0,0,0,0.8)
+}

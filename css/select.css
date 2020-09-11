@@ -1,0 +1,17 @@
+
+#select {
+  pointer-events: none;
+
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+  width: 0px;
+  height: 0px;
+
+  border-radius: 3.5px;
+  border: solid 1.25px #2198bbba;
+
+  background-color: #2198bb47;
+}
