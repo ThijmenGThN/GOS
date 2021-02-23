@@ -1,0 +1,130 @@
+
+* {
+    margin: 0;
+    padding: 0;
+
+    border: none;
+    outline: none;
+
+    font-family: Arial;
+}
+
+#root {
+    overflow: hidden;
+
+    background-image: url('../assets/wps/bigsur.png');
+    background-size: cover;
+
+    background-color: black;
+}
+
+#taskbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 50px;
+}
+
+#taskbar-start {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+    width: 30px;
+    height: 30px;
+
+    background-image: url('../assets/icns/gos.png');
+    background-size: 100% 100%;
+
+    background-color: transparent;
+}
+
+#taskbar-notepad {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+
+    width: 30px;
+    height: 30px;
+
+    background-image: url('../assets/icns/notepad.png');
+    background-size: 100% 100%;
+
+    background-color: transparent;
+}
+
+#taskbar-time {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(227,227,227)
+}
+
+#start {
+    display: none;
+    opacity: 0;
+    transition: 250ms;
+
+    position: absolute;
+    top: 50px;
+    left: 0;
+
+    width: 100vw;
+    height: calc(100vh - 50px);
+
+    background-color: rgba(0,0,0,.2);
+}
+
+#notepad {
+    display: none;
+    opacity: 0;
+    transition: 250ms;
+
+    position: absolute;
+    top: 50px;
+    left: 0;
+
+    width: 100vw;
+    height: calc(100vh - 50px);
+
+    background-color: rgba(227,227,227);
+}
+
+#notepad-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 50px;
+
+    background-color: rgb(255,255,255);
+}
+
+#notepad-filename {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+    font-size: 30px;
+}
+
+#notepad-textarea {
+    resize: none;
+
+    position: absolute;
+    top: 55px;
+    left: 5px;
+
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+
+    font-size: 20px;
+
+    background-color: rgba(227,227,227);
+}

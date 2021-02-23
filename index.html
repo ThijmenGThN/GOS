@@ -1,40 +1,31 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>GOS</title>
 
-    <link rel="stylesheet" href="css/master.css">
-    <link rel="stylesheet" href="css/select.css">
-    <link rel="stylesheet" href="css/taskbar.css">
-    <link rel="stylesheet" href="css/task.css">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GOS - Web Based Operating System</title>
+  <link rel="stylesheet" href="utils/css/root.css">
+</head>
+<body id="root">
 
-    <script src="lib/socket.js"></script>
-    <script src="lib/jQuery.js"></script>
-    <script>const socket = io()</script>
-  </head>
-  <body>
-    <div id="desktop">
-      <div id="select"></div>
+  <div id="taskbar">
+    <button id="taskbar-start"></button>
+    <button id="taskbar-notepad"></button>
+    <p id="taskbar-time">00:00 AM</p>
+  </div>
 
-      <div id="tasks"></div>
-
-      <div class="taskbar">
-        <img id="taskbar-start" src="asset/start.png">
-        <div class="taskbar-startMenu">
-          <ul>
-            <li class="tasks-launch-explorer"><img src="asset/explorer.png"><p>File Explorer</p></li>
-          </ul>
-        </div>
-        <ul class="taskbar-applets">
-          <li class="tasks-launch-explorer"><img src="asset/explorer.png"></li>
-        </ul>
-        <p class="taskbar-date"></p>
-      </div>
+  <div id="notepad">
+    <div id="notepad-header">
+      <p id="notepad-filename">/ myFiles / Untitled.txt</p>
     </div>
-  </body>
-  <script src="js/select.js" charset="utf-8"></script>
-  <script src="js/window.js" charset="utf-8"></script>
-  <script src="js/taskbar.js" charset="utf-8"></script>
-  <script src="js/task.js" charset="utf-8"></script>
+    <textarea id="notepad-textarea"></textarea>
+  </div>
+  
+  <div id="start"></div>
+  
+</body>
+<script src="utils/js/events.js"></script>
+<script src="utils/js/handle.js"></script>
+<script src="utils/js/looper.js"></script>
 </html>
